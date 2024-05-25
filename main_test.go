@@ -4,7 +4,7 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/nemesidaa/gohashlist/internal/set"
+	"github.com/nemesidaa/gohashlist/v1/pkg/set"
 )
 
 func TestIntersection(t *testing.T) {
