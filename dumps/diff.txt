@@ -1,0 +1,28 @@
+diff --git a/README.MD b/README.MD
+new file mode 100644
+index 0000000..82ef242
+--- /dev/null
++++ b/README.MD
+@@ -0,0 +1 @@
++# HASHSET in Go!
+diff --git a/pkg/set/set.go b/internal/set/set.go
+similarity index 100%
+rename from pkg/set/set.go
+rename to internal/set/set.go
+diff --git a/pkg/set/utilities.go b/internal/set/utilities.go
+similarity index 100%
+rename from pkg/set/utilities.go
+rename to internal/set/utilities.go
+diff --git a/main_test.go b/main_test.go
+index 931b478..91a2b2d 100644
+--- a/main_test.go
++++ b/main_test.go
+@@ -4,7 +4,7 @@ import (
+ 	"reflect"
+ 	"testing"
+ 
+-	"github.com/nemesidaa/gohashlist/pkg/set"
++	"github.com/nemesidaa/gohashlist/internal/set"
+ )
+ 
+ func TestIntersection(t *testing.T) {
